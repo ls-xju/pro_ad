@@ -12,9 +12,13 @@ pyod==1.0.9
 adbench==0.1.11
 deepod==0.4.1
 ```
+## Get Start
+
+Download data and put them into the folder: datasets/. You can obtain all benchmarks from [data](https://github.com/Minqi824/ADBench/tree/main/adbench/datasets/Classical).
 
 ## Train the model
 
 To reproduce our results, run Running_Load.py.
 
 To compare the performance of our method and baseline methods, run Running_Main.py and set compare_alg=0 for our method and compare_alg=1 for baseline methods, respectively.
+
