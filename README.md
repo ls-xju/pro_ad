@@ -14,7 +14,7 @@ deepod==0.4.1
 ```
 ## Get Start
 
-Download data and put them into the folder: datasets/. You can obtain all benchmarks from [data](https://github.com/Minqi824/ADBench/tree/main/adbench/datasets/Classical).
+Download [data](https://github.com/Minqi824/ADBench/tree/main/adbench/datasets/Classical) and put them into the folder: datasets/.
 
 ## Train the model
 
