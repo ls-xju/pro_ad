@@ -8,7 +8,6 @@ import numpy as np
 import sklearn.impute
 
 import Tools.utils
-from tabgan.sampler import OriginalGenerator, GANGenerator, ForestDiffusionGenerator, LLMGenerator
 import pandas as pd
 import numpy as np
 
@@ -40,8 +39,6 @@ def diffusion(steps, schedule_name, train_x, train_y):
     # Constructing inputs to the model
     neg_x, noise = x_t(train_x, t, args)
 
-    # tips 评估分数
-    # evaluate_similarity(train_x, neg_x)
 
 
     neg_y = np.ones(len(neg_x))
