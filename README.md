@@ -12,7 +12,7 @@ deepod==0.4.1
 ```
 ## Get Start
 
-Download [data](https://github.com/Minqi824/ADBench/tree/main/adbench/datasets/Classical) and put them into the folder: datasets/.
+Download data and put them into the folder: datasets/.
 
 Download [well-trained-models](https://drive.google.com/drive/folders/183dC-db9C6S7iJkOrTrVrPTVTyikBztb?usp=drive_link) and put them into the folder: Well_Trained_Models/.
 
