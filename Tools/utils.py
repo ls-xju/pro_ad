@@ -99,7 +99,6 @@ def save_data(data,label,dataname,data_type):
     #                  ]
     result_axis0 = np.concatenate((data, label.reshape(-1, 1)), axis=1)
     save_dir = f'./datasets/generated_data/{data_type}'
-    # 将NumPy数组保存为NumPy文件（.npy）
     np.save(os.path.join(save_dir, f'{dataname}.npy'), result_axis0)
     print(dataname)
 
