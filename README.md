@@ -3,12 +3,10 @@
 numpy== 1.25.0
 torch==1.13.0+cu116
 python==3.9.18
-sklearn==0.22.0
+sklearn==1.3.1
 pandas==2.1.3
 cuda=11.6
-pyod==1.0.9
-adbench==0.1.11
-deepod==0.4.1
+torch-geometric==2.4.0
 ```
 ## Get Start
 
